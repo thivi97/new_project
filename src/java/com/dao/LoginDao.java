@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dao;
+package com.dao;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import model.Login;
-import connection.DBConnection;
+import com.model.Login;
+import com.connection.DBConnection;
 
 
 /**
@@ -32,7 +32,7 @@ public class LoginDao {
         String passwordDB = "";
         
         try{
-            con = DBConnection.createConnection();
+            con = DBConnection.getConnection();
             statement = con.createStatement();
             resultSet = statement.executeQuery("select uname,pwd from login");
             

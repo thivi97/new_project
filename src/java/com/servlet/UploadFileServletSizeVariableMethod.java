@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package servlet;
+package com.servlet;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,13 +27,13 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.Part;
 
-import model.FileToAnalyze;
-import model.SingleLineMethods;
-import model.SingleLineStatement;
-import model.SingleLineVariable;
-import service.ComplexityMethodsService;
-import service.ComplexitySizeService;
-import service.ComplexityVariableService;
+import com.model.FileToAnalyze;
+import com.model.SingleLineMethods;
+import com.model.SingleLineStatement;
+import com.model.SingleLineVariable;
+import com.service.ComplexityMethodsService;
+import com.service.ComplexitySizeService;
+import com.service.ComplexityVariableService;
 
 /**
  * Servlets implementation class UploadFileServlet

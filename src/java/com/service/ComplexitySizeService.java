@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package service;
+package com.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import model.SingleLineStatement;
-import util.CommonConstantssSizeVariableMethod;
+import com.model.SingleLineStatement;
+import com.util.CommonConstantssSizeVariableMethod;
 
 /**
  *

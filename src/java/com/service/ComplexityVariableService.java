@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package service;
+package com.service;
 
+import com.util.CommonConstants;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import model.SingleLineStatement;
-import model.SingleLineVariable;
-import model.SingleLineMethods;
-import model.Stack;
-import util.*;
+import com.model.SingleLineStatement;
+import com.model.SingleLineVariable;
+import com.model.SingleLineMethods;
+import com.model.Stack;
 
 /**
  *

@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package service;
+package com.service;
 
 import java.util.List;
 
-import model.SingleLineMethods;
-import model.SingleLineStatement;
-import model.SingleLineVariable;
-import model.Stack;
-import util.CommonConstants;
-import model.SingleLineMethods;
+import com.model.SingleLineMethods;
+import com.model.SingleLineStatement;
+import com.model.SingleLineVariable;
+import com.model.Stack;
+import com.util.CommonConstants;
+import com.model.SingleLineMethods;
 
 /**
  *

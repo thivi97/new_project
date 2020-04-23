@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package servlet;
+package com.servlet;
 
 import java.io.IOException;
 import java.io.BufferedReader;
@@ -29,9 +29,9 @@ import javax.servlet.http.HttpSession;
 import javax.servlet.http.Part;
 
 
-import model.FileToAnalyze;
+import com.model.FileToAnalyze;
 import model.Inheritance;
-import service.InheritanceService;
+import com.service.InheritanceService;
 
 
 

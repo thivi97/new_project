@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dao;
+package com.dao;
 
-import connection.DBConnection;
+import com.connection.DBConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import model.Register;
+import com.model.Register;
 
 
 /**
@@ -29,7 +29,7 @@ public class RegisterDao {
         PreparedStatement preparedStatement = null;
         
         try{
-            con = DBConnection.createConnection();
+            con = DBConnection.getConnection();
             String query = "insert into userinfo(fname,lname,uname,email,password) values(?,?,?,?,?)";
             
             preparedStatement = con.prepareStatement(query);

@@ -18,7 +18,7 @@
             <div class="sidebar">
                 <h2>CDE SOLUTIONS</h2>
                 <ul>
-                    <li><a href="#"><i class="fas fa-home"></i>HOME</a></li>
+                    <li><a href="home.jsp"><i class="fas fa-home"></i>HOME</a></li>
                     <li><a href="size.jsp"><i class="fas fa-size"></i>SIZE</a></li>
                     <li><a href="method.jsp"><i class="fas fa-method"></i>METHOD</a></li>
                     <li><a href="variable.jsp"><i class="fas fa-variable"></i>VARIABLE</a></li>
